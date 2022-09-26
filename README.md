@@ -1,5 +1,3 @@
-# ljnbvzjcvbz
-mil
 algoritimo cotação do Dólar
 
 declaração 
@@ -11,8 +9,10 @@ declaração
 
 inicio 
   ESCREVA("Digite um valor, não pode converter menos que 10$");
-  SE(VALOR<10) ENTAO;
-       ESCREVA("Nossa, além de burro não sabe ler, digite um valor apartir de 10$");
+  SE(VALOR>=10) ENTAO;
+       LEIA(valor);
+  SENAO(VALOR<10) ENTAO;
+       ESCREVA("digite um valor apartir de 10$");
   ESCREVA("Digite Cotação atual");
   LEIA(cotação):
   resultado<-valor*cotação;
